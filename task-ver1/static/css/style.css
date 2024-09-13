@@ -1,0 +1,145 @@
+body{
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+/* nav_bar */
+nav {
+    margin: 0 20px;
+
+}
+.ibm-plex-sans-arabic-regular {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.nav-link {
+    color: rgb(36, 12, 173);
+    text-decoration: none;
+    padding: 8px 12px;
+    
+}
+.nav-item {
+    border: 2px solid  rgb(36, 12, 173);
+    border-radius: 20%;
+    margin: 10px;
+    position: relative;
+}
+.notification{
+    background-color: rgb(255, 115, 0);
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 50%;
+    left: 60%;
+}
+.num-notification{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* list items*/
+.list-group{
+    width: 100%;
+}
+.admin{
+    margin-left: 10px;
+}
+.main-page{
+    background-color: rgb(247, 247, 247);
+}
+.users{
+    background-color: rgb(239, 239, 243);
+}
+.title{
+    color: rgb(0, 0, 161);
+}
+hr{
+    color: rgb(0, 0, 161);
+}
+.input{
+    direction: rtl;
+    position: relative;
+
+}
+.form-control{
+    border: 1px solid rgb(131, 211, 221); 
+    background-color: rgb(239, 239, 243);
+}
+label{
+    color: gray;
+}
+/* buttons */
+.btn{
+    padding: 8px;
+}
+.search{
+    background-color: rgb(98, 198, 223);
+    width: 8%;
+}
+.delete{
+    background-color: rgb(201, 244, 255);
+    width: 10%;
+}
+
+.accept{
+    background-color: rgba(132, 238, 206, 0.815);
+    color: rgb(19, 116, 83);
+    opacity: 0.6;
+    width: 60%;
+}
+img{
+    width: 150px;
+    justify-content: center;
+}
+/* side bar select*/
+.select-bar{
+    background-color: rgb(18, 18, 141);
+    border-radius: 60px 0px 0px 60px;
+}
+.bar-btn {
+    direction: rtl;
+    text-align: right;
+    background-color: rgb(18, 18, 141);
+    color: rgb(255, 255, 255); 
+    font-size: 20px;
+}
+.dropdown :hover {
+    color: rgb(255, 115, 0);
+    border: 0px;
+}
+button i {
+    width: 30px;
+}
+.container{
+    background-color: rgb(239, 239, 243);
+    padding: 0px;
+    direction: rtl;
+}
+table{
+    width: 100%;
+    
+    padding: 2px 4px;
+    justify-content: center;
+    text-align: center;
+}
+tr{
+    width: 100%;
+}
+.add{
+    background-color: rgb(255, 115, 0);
+    width: 8%; 
+    text-align: center;
+}
+.add a {
+    color: rgb(255, 255, 255);
+    
+}
+table tr:nth-child(odd) td{
+    background-color: rgb(239, 239, 243);
+}
+
+table tr:nth-child(even) td {
+    background-color: rgb(221, 227, 253);
+}
