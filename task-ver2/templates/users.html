@@ -1,0 +1,344 @@
+{% include "header.html" %}
+
+<!--contacts page-->
+    <div class="d-md-flex flex-row-reverse">
+        <!--right select bar-->
+        <div  class="w-md-25 select-bar p-4">
+            <!--logo-->
+            <div class="bar h-3 m-4">
+                <div>
+                    <img src="../static/assets/data_logo.png" class="img-fluid rounded mx-auto d-block" alt="data-logo">
+                </div>
+
+            </div>
+            <hr class="text-light">
+            <!--menu-->
+            <div class="dropdown border-0">
+                <button class="btn dropdown-toggle w-100 text-end bar-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-regular fa-circle-stop"></i>
+                  داشبورد
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item active" href="#">صفحه اول</a></li>
+                  <li><a class="dropdown-item" href="#">صفحه ذوم</a></li>
+                  <li><a class="dropdown-item" href="#">صفحه سوم</a></li>
+                </ul>
+            </div>
+            <div class="dropdown d-flex">
+
+                <button class="btn w-100 text-end bar-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-chart-line bar-icon"></i>
+                  ریسک
+                </button>
+            </div>
+            <div class="dropdown">
+                <button class="btn w-100 text-end bar-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-regular fa-id-badge"></i>
+                  کاربران
+                </button>
+            </div>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle w-100 text-end bar-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-box"></i>
+                  گزارشات
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item active" href="#">صفحه</a></li>
+                  <li><a class="dropdown-item" href="#">صفحه</a></li>
+                  <li><a class="dropdown-item" href="#">صفحه</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle w-100 text-end bar-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-monument"></i>
+                  پیشبینی ریسک نقدینگی
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item active" href="#">صفحه</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle w-100 text-end bar-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-file-circle-check"></i>
+                  مدیریت اطلاعات پایه
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item active" href="#">صفحه</a></li>
+
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn  w-100 text-end bar-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-table-columns"></i>
+                  راهنمای کاربران
+                </button>
+            </div>
+            <div class="dropdown">
+                <button class="btn  w-100 text-end bar-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-regular fa-file"></i>
+                  مستندات
+                </button>
+            </div>
+        </div>
+        <!--main page-->
+        <div  class="w-md-75 ">
+            <!--nav bar-->
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+                    </li>
+                    <li class="nav-item , active">
+                    <a class="nav-link" href="#">
+                        <i class="fa-solid fa-bell"></i>
+                        <div class="notification text-center">
+                            <span class="num-notification">60</span>
+                        </div>
+                    </a>
+                    </li>
+                </ul>
+                <div class="admin">
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <span>Admins</span>
+
+                </div>
+            </nav>
+            <!--home-->
+            <div class="main-page p-4 ">
+                <div class="users p-1 rounded">
+                    <div class=" p-4">
+                        <div class="title text-end fw-bold fs-5 pt-2">کاربران</div>
+                        <hr>
+                        <!--inputs-->
+                        <div class="input">
+                            <form action="" >
+                                    <div class="d-lg-flex">
+                                        <div class="mb-3 m-3">
+                                            <label for="name" class="form-label">نام</label>
+                                            <input type="name" name="name" class="form-control" id="name infileid" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3 m-3">
+                                            <label for="lastname" class="form-label">نام خانوادگی </label>
+                                            <input type="text" name="lastname" class="form-control" id="lastname infileid" aria-describedby="emailHelp">
+                                            </div>
+                                        <div class="mb-3 m-3">
+                                            <label for="username" class="form-label">نام کاربری(شماره پرسنلی)</label>
+                                            <input type="text" name="username" class="form-control" id="infileid" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3 m-3">
+                                            <label for="phone" class="form-label">شماره تماس</label>
+                                            <input type="text" name="phone" class="form-control" id="infileid" aria-describedby="emailHelp">
+                                        </div>
+                                    </div>
+
+                                    <button type="search" class="btn m-2 search title">
+                                        <i class="fa-solid fa-magnifying-glass d-sm-inline d-lg-none"></i>
+                                        <span class="d-lg-inline d-sm-none">جستجو</span>
+
+
+                                    </button>
+                                    <button type="delete" class="btn  delete title ">
+                                        <i class="fa-solid fa-trash  d-sm-inline d-lg-none"></i>
+                                        <span class="d-lg-inline d-sm-none" id="resetbtn">
+                                            پاک کردن همه
+                                        </span>
+                                    </button>
+                            </form>
+                        </div>
+                        <!--list of contacts-->
+                        <div class="list">
+                            <div class="row ">
+                                <div class="col-sm-12">
+                                    <div class="add btn">
+                                        <a href="#" class="btn d-inline-flex align-item-center " data-bs-toggle="modal" data-bs-target="#customer-edit_add-modal">
+                                        <span class="d-lg-inline d-sm-none">افزودن |</span> +
+                                        </a>
+                                    </div>
+
+                                    <hr>
+                                    <div class=" container w-100">
+                                    <table class="table table-hover container " id="table" >
+                                        <thead class="">
+                                            <tr class="">
+                                                <th >
+                                                    عملیات
+                                                </th>
+                                                <th >
+                                                    نام کاربری
+                                                </th>
+                                                <th >
+                                                    نام
+                                                </th>
+                                                <th >
+                                                    نام خانوادگی
+                                                </th>
+                                                <th >
+                                                    شماره موبایل
+                                                </th>
+                                                <th >
+                                                    وضعیت
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr data-index="5">
+                                                <td>
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                </td>
+                                                <td>
+                                                    <div class="row">
+                                                    <div class="col">
+                                                <h6 class="mb-0">
+                                                    Mohandesi
+                                                </h6>
+                                                </div>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                    لیلا
+                                                </td>
+                                                <td>
+                                                    افهیا
+                                                </td>
+                                                <td>
+                                                    0935246189
+                                                </td>
+                                                <td>
+                                                    <button type="submit" class="btn title accept">فعال</button>
+                                                </td>
+                                            </tr>
+                                            <tr data-index="5">
+                                            </tr>
+                                            <tr data-index="5">
+                                                <td>
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                </td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <h6 class="mb-0">
+                                                                Hoghoghi
+                                                            </h6>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    مرضیه
+                                                </td>
+                                                <td>
+                                                    صادق بزرگی
+                                                </td>
+                                                <td>
+                                                    0932345678
+                                                </td>
+                                                <td>
+                                                    <button type="submit" class="btn title accept">فعال</button>
+                                                </td>
+                                            </tr>
+                                            <tr data-index="5">
+                                                <td>
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                </td>
+                                                <td>
+                                                <div class="row">
+                                                <div class="col">
+                                                    <h6 class="mb-0">
+                                                        تست
+                                                    </h6>
+                                                </div>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                    تست
+                                                </td>
+                                                <td>
+                                                    تست
+                                                </td>
+                                                <td>
+                                                    0912346789
+                                                </td>
+                                                <td>
+                                                    <button type="submit" class="btn title accept">فعال</button>
+                                                </td>
+                                            </tr>
+                                            <tr data-index="5">
+                                                <td>
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                </td>
+                                                <td>
+                                                <div class="row">
+                                                    <div class="col">
+                                                            <h6 class="mb-0">
+                                                                آرش
+                                                            </h6>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    rletyh
+                                                </td>
+                                                <td>
+                                                    iraji
+                                                </td>
+                                                <td>
+                                                    0943567890
+                                                </td>
+                                                <td>
+                                                    <button type="submit" class="btn title accept">فعال</button>
+                                                </td>
+                                            </tr>
+                                            <tr data-index="5">
+                                                <td>
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                </td>
+                                                <td>
+                                                    <div class="row">
+                                                    <div class="col">
+                                                        <h6 class="mb-0">
+                                                            Mohsen
+                                                        </h6>
+                                                    </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    لیلا
+                                                </td>
+                                                <td>
+                                                    افهیا
+                                                </td>
+                                                <td>
+                                                    0935246189
+                                                </td>
+                                                <td>
+                                                    <button type="submit" class="btn title accept">فعال</button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                        </div>
+                                        <nav aria-label="Page navigation example">
+                                        <ul class="pagination">
+                                        <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="#">صفحه 1 از 1</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#" aria-label="Next">
+                                                <span aria-hidden="true">&raquo;</span>
+                                            </a>
+                                        </li>
+                                        </ul>
+                                        </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
